@@ -1,0 +1,225 @@
+body {
+	display: flex;
+	background-attachment: fixed;
+	align-items: center;
+	justify-content: center;
+	background-image: url("background.jpg");
+	background-size: cover;
+	user-select: none;
+	background-color: #09032e;
+}
+
+.container {
+	height: 600px;
+	width: 420px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 180px;
+	flex-direction: column;
+	backdrop-filter: blur(25px) saturate(110%);
+	-webkit-backdrop-filter: blur(25px) saturate(110%);
+	background-color: rgba(77, 106, 174, 0.32);
+	border: 1px solid rgba(255, 255, 255, 0.125);
+	border-radius: 10px;
+}
+
+input {
+	margin-top: 20px;
+	height: 25px;
+	width: 250px;
+	background: transparent;
+	border: none;
+	border-bottom: 3px solid rgba(255, 255, 255, 0.438);
+	border-radius: 6px;
+	margin-bottom: 15px;
+	font-size: 15px;
+	color: aliceblue;
+	margin-left: 10px;
+}
+
+::placeholder {
+	color: rgb(123, 188, 241);
+}
+
+.title {
+	font-size: 30px;
+	color: aliceblue;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 30px;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+#email {
+	color: rgb(255, 255, 255);
+}
+
+.username {
+	display: flex;
+	align-items: center;
+}
+
+.email {
+	display: flex;
+	align-items: center;
+}
+
+.password {
+	display: flex;
+	align-items: center;
+}
+
+.policy {
+	color: aliceblue;
+	width: 260px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	display: flex;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.checkbox {
+	width: 15px;
+}
+
+.policy label {
+	margin-top: 5px;
+	margin-left: 10px;
+	font-size: 14px;
+	color: rgb(255, 255, 255);
+}
+
+.policy a {
+	color: rgb(140, 180, 255);
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.button {
+	display: flex;
+	justify-content: center;
+}
+
+.button button {
+	width: 150px;
+	height: 35px;
+	background-color: transparent;
+	backdrop-filter: blur(15px);
+	border: 1px solid white;
+	border-radius: 6px;
+	color: white;
+	font-size: 16px;
+	cursor: pointer;
+	box-shadow: 2px 2px 3px #000000b4;
+	display: flex;
+	align-items: center;
+}
+
+.container-but {
+	position: relative;
+	padding: 3px;
+	border-radius: 0.9em;
+	transition: all 0.4s ease;
+}
+
+.container-but::before {
+	content: "";
+	position: absolute;
+	inset: 0;
+	margin: auto;
+	border-radius: 0.9em;
+	z-index: -10;
+	filter: blur(0);
+	transition: filter 0.4s ease;
+}
+
+.container-but:hover::before {
+	background: linear-gradient(90deg, #000c50, #00237011);
+	filter: blur(1.5em);
+}
+
+.container-but:active::before {
+	filter: blur(0.2em);
+}
+
+.signin {
+	color: rgb(255, 255, 255);
+	font-size: 16px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.signin a {
+	color: rgb(140, 180, 255);
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.forgot {
+	display: flex;
+	justify-content: flex-end;
+	font-size: 0.75rem;
+	line-height: 1rem;
+	color: rgba(156, 163, 175, 1);
+	margin: 8px 0 14px 0;
+}
+
+.forgot a,
+.signup a {
+	color: rgba(243, 244, 246, 1);
+	text-decoration: none;
+	font-size: 14px;
+}
+
+.forgot a:hover,
+.signup a:hover {
+	color: #77a6ff;
+	text-decoration: underline rgb(64, 0, 255);
+}
+
+.social-message {
+	display: flex;
+	align-items: center;
+	padding-top: 1rem;
+}
+
+.line {
+	height: 1px;
+	flex: 1 1 0%;
+	background-color: rgba(55, 65, 81, 1);
+}
+
+.social-message .message {
+	padding-left: 0.75rem;
+	padding-right: 0.75rem;
+	font-size: 0.875rem;
+	line-height: 1.25rem;
+	color: rgba(156, 163, 175, 1);
+}
+
+.social-icons {
+	display: flex;
+	justify-content: center;
+}
+
+.social-icons .icon {
+	border-radius: 0.125rem;
+	padding: 0.75rem;
+	border: none;
+	background-color: transparent;
+	margin-left: 8px;
+}
+
+.social-icons .icon svg {
+	height: 1.25rem;
+	width: 1.25rem;
+	fill: #fff;
+}

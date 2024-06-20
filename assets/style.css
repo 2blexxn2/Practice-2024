@@ -1,0 +1,183 @@
+body {
+	display: flex;
+	background-attachment: fixed;
+	align-items: center;
+	justify-content: center;
+	background-image: url('bbblurry.svg');
+	backdrop-filter: blur(15px);
+	background-size: cover;
+	user-select: none;
+	background-color: #09032e;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-repeat: repeat-y;
+	animation: scroll 20s linear infinite;
+}
+.navbar {
+	backdrop-filter: blur(25px) saturate(110%);
+	-webkit-backdrop-filter: blur(25px) saturate(110%);
+	background-color: rgba(77, 106, 174, 0.32);
+	border: 1px solid rgba(255, 255, 255, 0.125);
+	color: azure;
+	margin-bottom: 200px;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.carousel {
+	position: relative;
+	width: 1200px;
+	overflow: hidden;
+	margin-left: 200px;
+}
+
+.carousel-images {
+	display: flex;
+	transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+	position: relative;
+	width: 100%;
+	flex-shrink: 0;
+}
+
+.carousel-caption {
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+	background: rgba(255, 255, 255, 0.225);
+	padding: 5px;
+	font-size: 20px;
+	width: 250px;
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	text-shadow: 1px 0px 9px rgba(0, 0, 0, 0.62);
+}
+
+.carousel-button {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	background-color: rgba(255, 255, 255, 0.7);
+	border: none;
+	cursor: pointer;
+	padding: 10px;
+	font-size: 24px;
+	z-index: 10;
+}
+
+.carousel-button.left {
+	left: 10px;
+}
+
+.carousel-button.right {
+	right: 10px;
+}
+
+.thumbnails {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+.thumbnail {
+	width: 80px;
+	height: 60px;
+	overflow: hidden;
+	margin: 0 10px;
+	cursor: pointer;
+}
+
+.thumbnail img {
+	width: 100%;
+	height: auto;
+}
+
+.left-menu-bar {
+	backdrop-filter: blur(25px) saturate(110%);
+	-webkit-backdrop-filter: blur(25px) saturate(110%);
+	background-color: rgba(77, 106, 174, 0.32);
+	border-radius: 12px;
+	border: 1px solid rgba(255, 255, 255, 0.125);
+	color: azure;
+}
+
+#password {
+	color: aliceblue;
+}
+
+.game-card {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 50px;
+	padding: 20px;
+}
+
+.card {
+	width: 400px;
+	height: 450px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: rgba(0, 0, 0, 0);
+	color: #ffffff;
+	padding: 2px;
+	box-shadow: 0 0 50px rgb(0, 0, 0);
+	backdrop-filter: blur(15px);
+	transition: transform 0.5s, box-shadow 0.5s;
+	text-decoration: none;
+	border-radius: 6px;
+	border: 1px solid rgba(255, 255, 255, 0.178);
+}
+
+.card:hover {
+	transform: scale(1.05);
+	box-shadow: 0 0 50px rgb(0, 0, 0, 0.5);
+}
+
+.card img {
+	max-width: 100%;
+	height: 300px;
+	object-fit: cover;
+	margin-bottom: 10px;
+}
+
+.card-body {
+	text-align: center;
+}
+
+.title-block {
+	width: 100%;
+	padding: 50px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	background-color: rgba(4, 61, 110, 0.212);
+	text-align: center;
+	color: #ffffff;
+	font-weight: bolder;
+	font-size: x-large;
+}
+.card button{
+	background-color: #ffffff2d;
+	border:1px solid white;
+	border-radius: 3px;
+	width: 100px;
+	height: 30px;
+	margin-top: 20px;
+}

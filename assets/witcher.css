@@ -1,0 +1,75 @@
+body {
+	font-family: Arial, sans-serif;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	margin: 0;
+}
+.witcher-image {
+	width: 100%;
+}
+
+.Witcher {
+	width: 1200px;
+	backdrop-filter: blur(25px) saturate(110%);
+	-webkit-backdrop-filter: blur(25px) saturate(110%);
+	background-color: rgba(77, 106, 174, 0.32);
+	border: 1px solid rgba(255, 255, 255, 0.125);
+	border-radius: 8px;
+	color: azure;
+	display: flex;
+	flex-direction: column;
+	margin-left: 200px;
+	margin-top: 1040px;
+	margin-bottom: 50px;
+}
+
+.title-wit{
+	font-weight: bold;
+	font-size: xx-large;
+	padding-bottom: 20px;
+}
+
+.text {
+	padding-top: 20px;
+	width: 100%;
+	color: aliceblue;
+}
+
+.left-menu-bar{
+	margin-top: 150px;
+}
+
+.game-details{
+	width: 90%;
+	margin-left: 50px;
+	margin-top: 20px;
+	padding-bottom: 50px;
+}
+.game-details a{
+	color: rgb(0, 193, 252);
+}
+
+.buy-card{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.cards{
+	background-color: transparent;
+	border: 1px solid rgba(255, 255, 255, 0.349);
+	backdrop-filter: blur(15px);
+	padding: 20px;
+	width: 1100px;
+	margin-bottom: 50px;
+}
+
+.button{
+	background-color: rgb(48, 48, 190);
+	border: 1px solid rgba(0, 0, 255, 0.288);
+	padding: 6px;
+}

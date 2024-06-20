@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/style.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar w-full start-0 dark:border-gray">
+      <div
+        class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
+      >
+        <a
+          href="index.html"
+          class="flex items-center space-x-3 rtl:space-x-reverse"
+        >
+          <img src="assets/logo.png" class="h-8" alt="Flowbite Logo" />
+          <span
+            class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"
+            >Dunkler</span
+          >
+        </a>
+        <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+          <button
+            type="button"
+            class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+          >
+            <a href="Registration.html"> Get started</a>
+          </button>
+          <button
+            data-collapse-toggle="navbar-sticky"
+            type="button"
+            class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+            aria-controls="navbar-sticky"
+            aria-expanded="false"
+          >
+            <span class="sr-only">Open main menu</span>
+            <svg
+              class="w-5 h-5"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 17 14"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M1 1h15M1 7h15M1 13h15"
+              />
+            </svg>
+          </button>
+        </div>
+        <div
+          class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
+          id="navbar-sticky"
+        >
+          <ul
+            class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700"
+          >
+            <li>
+              <a
+                href="index.html"
+                class="block py-2 px-3 text-blue-500 bg-blue-700 rounded md:bg-transparent md:p-0"
+                aria-current="page"
+                >Магазин</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="block py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                >Каталог</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="block py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                >Новини</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="block py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                >Аккаунт</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="menu-vertical-bar">
+      <div
+        class="left-menu-bar w-48 h-72 fixed top-8 left-5 border rounded-lg dark:bg-gray-700 dark:border-gray-600"
+      >
+        <button
+          type="button"
+          class="relative inline-flex items-center w-full px-4 py-2 text-sm font-medium rounded-t-lg hover:text-blue-600 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:border-gray-600 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:ring-gray-500 dark:focus:text-white"
+        >
+          <svg
+            class="w-3 h-3 me-2.5"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="currentColor"
+            viewBox="0 0 20 20"
+          >
+            <path
+              d="M10 0a10 10 0 1 0 10 10A10.011 10.011 0 0 0 10 0Zm0 5a3 3 0 1 1 0 6 3 3 0 0 1 0-6Zm0 13a8.949 8.949 0 0 1-4.951-1.488A3.987 3.987 0 0 1 9 13h2a3.987 3.987 0 0 1 3.951 3.512A8.949 8.949 0 0 1 10 18Z"
+            />
+          </svg>
+          Аккаунт
+        </button>
+        <button
+          type="button"
+          class="relative inline-flex items-center w-full px-4 py-2 text-sm font-medium hover:text-blue-600 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:border-gray-600 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:ring-gray-500 dark:focus:text-white"
+        >
+          <svg
+            class="w-3 h-3 me-2.5"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="currentColor"
+            viewBox="0 0 20 20"
+          >
+            <path
+              d="M13 20a1 1 0 0 1-.64-.231L7 15.3l-5.36 4.469A1 1 0 0 1 0 19V2a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v17a1 1 0 0 1-1 1Z"
+            ></path>
+          </svg>
+          Бібліотека
+        </button>
+        <button
+          type="button"
+          class="relative inline-flex items-center w-full px-4 py-2 text-sm font-medium hover:text-blue-600 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:border-gray-600 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:ring-gray-500 dark:focus:text-white"
+        >
+          <svg
+            class="w-3 h-3 me-2.5"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 20 20"
+          >
+            <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M7.75 4H19M7.75 4a2.25 2.25 0 0 1-4.5 0m4.5 0a2.25 2.25 0 0 0-4.5 0M1 4h2.25m13.5 6H19m-2.25 0a2.25 2.25 0 0 1-4.5 0m4.5 0a2.25 2.25 0 0 0-4.5 0M1 10h11.25m-4.5 6H19M7.75 16a2.25 2.25 0 0 1-4.5 0m4.5 0a2.25 2.25 0 0 0-4.5 0M1 16h2.25"
+            />
+          </svg>
+          Налаштування
+        </button>
+        <button
+          type="button"
+          class="relative inline-flex items-center w-full px-4 py-2 text-sm font-medium hover:text-blue-600 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:border-gray-600 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:ring-gray-500 dark:focus:text-white"
+        >
+          <svg
+            class="w-3 h-3 me-2.5"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 20 18"
+            fill="currentColor"
+          >
+            <path
+              d="M18 4H16V9C16 10.0609 15.5786 11.0783 14.8284 11.8284C14.0783 12.5786 13.0609 13 12 13H9L6.846 14.615C7.17993 14.8628 7.58418 14.9977 8 15H11.667L15.4 17.8C15.5731 17.9298 15.7836 18 16 18C16.2652 18 16.5196 17.8946 16.7071 17.7071C16.8946 17.5196 17 17.2652 17 17V15H18C18.5304 15 19.0391 14.7893 19.4142 14.4142C19.7893 14.0391 20 13.5304 20 13V6C20 5.46957 19.7893 4.96086 19.4142 4.58579C19.0391 4.21071 18.5304 4 18 4Z"
+              fill="currentColor"
+            />
+            <path
+              d="M12 0H2C1.46957 0 0.960859 0.210714 0.585786 0.585786C0.210714 0.960859 0 1.46957 0 2V9C0 9.53043 0.210714 10.0391 0.585786 10.4142C0.960859 10.7893 1.46957 11 2 11H3V13C3 13.1857 3.05171 13.3678 3.14935 13.5257C3.24698 13.6837 3.38668 13.8114 3.55279 13.8944C3.71889 13.9775 3.90484 14.0126 4.08981 13.996C4.27477 13.9793 4.45143 13.9114 4.6 13.8L8.333 11H12C12.5304 11 13.0391 10.7893 13.4142 10.4142C13.7893 10.0391 14 9.53043 14 9V2C14 1.46957 13.7893 0.960859 13.4142 0.585786C13.0391 0.210714 12.5304 0 12 0Z"
+              fill="currentColor"
+            />
+          </svg>
+          Повідомлення
+        </button>
+        <button
+          type="button"
+          class="relative inline-flex items-center w-full px-4 py-2 text-sm font-medium rounded-b-lg hover:text-blue-600 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:border-gray-600 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:ring-gray-500 dark:focus:text-white"
+        >
+          <svg
+            class="w-3 h-3 me-2.5"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="currentColor"
+            viewBox="0 0 20 20"
+          >
+            <path
+              d="M14.707 7.793a1 1 0 0 0-1.414 0L11 10.086V1.5a1 1 0 0 0-2 0v8.586L6.707 7.793a1 1 0 1 0-1.414 1.414l4 4a1 1 0 0 0 1.416 0l4-4a1 1 0 0 0-.002-1.414Z"
+            />
+            <path
+              d="M18 12h-2.55l-2.975 2.975a3.5 3.5 0 0 1-4.95 0L4.55 12H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-4a2 2 0 0 0-2-2Zm-3 5a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"
+            />
+          </svg>
+          Завантаження
+        </button>
+      </div>
+    </div>
+
+    <div class="carousel">
+      <button id="prevButton" class="carousel-button left">&#10094;</button>
+      <div class="carousel-images">
+        <div class="carousel-item">
+          <img
+            src="/assets/2341700.jpg"
+            class="carousel-image"
+            alt="The Witcher 3: Wild Hunt"
+          />
+          <div class="carousel-caption">
+            <a href="Witcher.html">The Witcher 3: Wild Hunt</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="/assets/1344730.png" class="carousel-image" alt="Image 2" />
+          <div class="carousel-caption">Diablo IV</div>
+        </div>
+        <div class="carousel-item">
+          <img src="/assets/picture3.png" class="carousel-image" alt="Ghost" />
+          <div class="carousel-caption">Ghost of Tsushima</div>
+        </div>
+        <div class="carousel-item">
+          <img src="/assets/pic2.jpg" class="carousel-image" alt="Image 4" />
+          <div class="carousel-caption">God of War: Ragnarök</div>
+        </div>
+      </div>
+      <button id="nextButton" class="carousel-button right">&#10095;</button>
+    </div>
+
+    <div class="thumbnails">
+      <div class="thumbnail" onclick="setImage(0)">
+        <img src="/assets/2341700.jpg" alt="Thumbnail 1" />
+      </div>
+      <div class="thumbnail" onclick="setImage(1)">
+        <img src="/assets/1344730.png" alt="Thumbnail 2" />
+      </div>
+      <div class="thumbnail" onclick="setImage(2)">
+        <img src="/assets/picture3.png" alt="Thumbnail 3" />
+      </div>
+      <div class="thumbnail" onclick="setImage(3)">
+        <img src="/assets/pic2.jpg" alt="Thumbnail 4" />
+      </div>
+    </div>
+    <div class="title-block">
+      <h1>Популярні ігри цього місяця</h1>
+    </div>
+
+    <div class="game-card">
+      <div class="card">
+        <a href="Witcher.html" class="card">
+          <img src="assets/894257.jpg" class="card-img-top" alt="Image 4" />
+          <div class="card-body">
+            <h5 class="card-title">The Witcher 3: Wild Hunt</h5>
+            <button type="button">Дивитись</button>
+          </div>
+        </a>
+      </div>
+      <div class="card">
+        <a href="" class="card">
+          <img src="assets/1348707.jpeg" class="card-img-top" alt="Image 4" />
+          <div class="card-body">
+            <h5 class="card-title">Elden Ring</h5>
+            <button type="button">Дивитись</button>
+          </div>
+        </a>
+      </div>
+      <div class="card">
+        <a href="" class="card">
+          <img src="assets/2778736.jpg" class="card-img-top" alt="Image 4" />
+          <div class="card-body">
+            <h5 class="card-title">Total War: Attila</h5>
+            <button type="button">Дивитись</button>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <script src="assets/scripts.js"></script>
+    <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
+  </body>
+</html>
